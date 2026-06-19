@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://www.psgcas.ac.in/wp-content/uploads/2025/08/cropped-logo-2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSG College of Arts & Science - Portal Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              psgblue: '#070F2B',
+              psggold: '#D4AF37',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
